@@ -4,7 +4,7 @@ authors = ["kindlyway"]
 
 [swapwindowv2]
 description = "Adds a new dispatcher to allow 2 windows to be swapped based on their address"
-output = "swapwindowv2.so"
+output = "swapwindowv2/swapwindowv2.so"
 build = [
         "make -C swapwindowv2 all"
 ]

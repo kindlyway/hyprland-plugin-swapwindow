@@ -12,3 +12,7 @@ To use the plugin, run ```hyprctl dispatch plugin:swapwindowv2:swapwindowv2 addr
 ## Additional notes
 
 This plugin also adds a "swapwindowv2" to the IPC, meaning there will be an extra IPC message if you use this plugin
+
+## Contributing
+
+If you find an error with this plugin, or want to help with some other features, please open up a issue or pull request :)

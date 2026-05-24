@@ -29,12 +29,10 @@ static SDispatchResult swapwindowv2(std::string in){
                         return {.success = false, .error = "Invalid"};
                 }
                 g_layoutManager->switchTargets(FIRSTWINDOW->layoutTarget(), SECONDWINDOW->layoutTarget(), true);
-                g_pEventManager->postEvent(SHyprIPCEvent{
-                                "swapwindowv2"
-                                });
+                g_pEventManager->postEvent(SHyprIPCEvent{"swapwindowv2"});
         }
         else{
-                HyprlandAPI::addNotification(PHANDLE, "no", CHyprColor{1.0,0.2,0.2,1.0}, 5000);
+                return {.success = false, .error = "Invalid dispatcher: Comma is needed to seperate windows"};
         }
         return SDispatchResult{};
 }

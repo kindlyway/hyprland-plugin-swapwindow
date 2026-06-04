@@ -9,7 +9,7 @@ Run ```hyprpm update```, then ```hyprpm add https://github.com/kindlyway/hyprlan
 
 Hyprlang
 
-To use the plugin, run ```hyprctl dispatch plugin:swapwindowv2:swapwindowv2 address:0x12345678,address:0x12345678```, replacing the addresses with the address you want to target, future support for other regexes will be added, currently only addresses are supported and process ids are supported, using any other regex will produce unintended results
+To use the plugin, run ```hyprctl dispatch swapwindowv2 address:0x12345678,address:0x12345678```, replacing the addresses with the address you want to target, future support for other regexes will be added, currently only addresses are supported and process ids are supported, using any other regex will produce unintended results
 
 Lua
 

@@ -14,7 +14,6 @@
 #include <hyprutils/string/VarList.hpp>
 #include <lauxlib.h>
 #include <lua.h>
-#include <sstream>
 #include <stdexcept>
 #include <string>
 inline HANDLE PHANDLE = nullptr;
